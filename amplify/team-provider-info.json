@@ -1,26 +1,27 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-todoappnuxtfirst-dev-131505-authRole",
-            "UnauthRoleArn": "arn:aws:iam::154143433092:role/amplify-todoappnuxtfirst-dev-131505-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::154143433092:role/amplify-todoappnuxtfirst-dev-131505-authRole",
-            "Region": "ap-northeast-1",
-            "DeploymentBucketName": "amplify-todoappnuxtfirst-dev-131505-deployment",
-            "UnauthRoleName": "amplify-todoappnuxtfirst-dev-131505-unauthRole",
-            "StackName": "amplify-todoappnuxtfirst-dev-131505",
-            "StackId": "arn:aws:cloudformation:ap-northeast-1:154143433092:stack/amplify-todoappnuxtfirst-dev-131505/b9eccb70-f5a3-11eb-81b3-0aa790ba6467",
-            "AmplifyAppId": "d3scqm8g8zlmxy"
-        },
-        "categories": {
-            "auth": {
-                "todoappnuxtfirsta504f0c1": {}
-            },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d3scqm8g8zlmxy",
-                    "type": "manual"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoappnuxtfirst-dev-131505-authRole",
+      "UnauthRoleArn": "arn:aws:iam::154143433092:role/amplify-todoappnuxtfirst-dev-131505-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::154143433092:role/amplify-todoappnuxtfirst-dev-131505-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-todoappnuxtfirst-dev-131505-deployment",
+      "UnauthRoleName": "amplify-todoappnuxtfirst-dev-131505-unauthRole",
+      "StackName": "amplify-todoappnuxtfirst-dev-131505",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:154143433092:stack/amplify-todoappnuxtfirst-dev-131505/b9eccb70-f5a3-11eb-81b3-0aa790ba6467",
+      "AmplifyAppId": "d3scqm8g8zlmxy"
+    },
+    "categories": {
+      "auth": {
+        "todoappnuxtfirsta504f0c1": {},
+        "userPoolGroups": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3scqm8g8zlmxy",
+          "type": "manual"
         }
+      }
     }
+  }
 }

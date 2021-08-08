@@ -1,5 +1,7 @@
 <template>
   <v-card>
+      <amplify-authenticator>
+
     <v-toolbar
       color="dark"
       flat
@@ -31,6 +33,8 @@
         </v-card>
       </v-tab-item>
     </v-tabs-items>
+      </amplify-authenticator>
+
   </v-card>
 </template>
 
@@ -47,8 +51,8 @@ export default {
       todos: []
     }
   },
-    async created() {
-    await this.getTodos()
+  mounted() {
+    this.getTodos();
   },
   methods: {
     async getTodos() {
